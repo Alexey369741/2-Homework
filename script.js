@@ -8,18 +8,21 @@ function add(firstNum,secondNum) {
     if (mathAction === "+") {
         alert(`${firstNum} ${mathAction} ${secondNum} = ${add(firstNum,secondNum)}`);
     }
+
 function sub(firstNum,secondNum) {
         return firstNum - secondNum;
     }
     if (mathAction === "-") {
         alert(`${firstNum} ${mathAction} ${secondNum} = ${sub(firstNum,secondNum)}`);
     }
+
 function mult(mathAction) {
         return firstNum * secondNum;
     }
     if (mathAction === "*") {
         alert(`${firstNum} ${mathAction} ${secondNum} = ${mult(firstNum,secondNum)}`);
     }
+    
 function div(mathAction) {
         return firstNum / secondNum
     }
